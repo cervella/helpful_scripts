@@ -1,11 +1,11 @@
 import os
 
 # define OutputFileName here
-OutputFilename = 'CombinedCompleteWorksiteExport.txt'
+OutputFilename = 'CombinedCompleteWorksiteExportv2.txt'
 
 # define the paths where the files live here
-InputPath = '/home/cervella/Downloads'
-OutputPath = '/home/cervella/Downloads'
+InputPath = 'C:\Users\cervella\Documents\experiment_shit'
+OutputPath = 'C:\Users\cervella\Documents\experiment_shit'
 
 #use os to remove slashes
 InputPath = os.path.normpath(InputPath)
